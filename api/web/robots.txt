@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+Host: e.tk-kit.ru
+Sitemap: https://e.tk-kit.ru/sitemap.xml
