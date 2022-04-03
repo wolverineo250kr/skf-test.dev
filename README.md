@@ -23,7 +23,7 @@ Methods
 <tr>
 <td>code</td>
 <td>Код ингредиента</td>
-<td>JSON</td>
+<td>string</td>
 <td>
 Yes
 </td>
@@ -40,15 +40,42 @@ Usage
 -------------------
 <b>request</b>
 <pre>
-http://api.kf-test.dev/1.0/price/update?key=FOJShnewogf743fhdscvn3w4cs
+http://api.skf-test.dev/1.0/food/construct?key=FOJShnewogf743fhdscvn3w4cs
 </pre>
 
 <b>response</b>
 <pre>
-{
-    "status": 1,
-    "message": "Обновлено 1 цена"
-}
+[
+    {
+        "products": [
+            {
+                "type": "Тесто",
+                "value": "Тонкое тесто"
+            },
+            {
+                "type": "Сыр",
+                "value": "Моцарелла"
+            },
+            {
+                "type": "Сыр",
+                "value": "Рикотта"
+            },
+            {
+                "type": "Начинка",
+                "value": "Колбаса"
+            },
+            {
+                "type": "Начинка",
+                "value": "Ветчина"
+            },
+            {
+                "type": "Начинка",
+                "value": "Грибы"
+            }
+        ],
+        "price": 335
+    }
+]
 </pre>
 
 DIRECTORY STRUCTURE
