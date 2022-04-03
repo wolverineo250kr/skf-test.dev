@@ -1,11 +1,11 @@
 <p align="center">
-    <h1 align="center">Price update API based on Yii 2 Advanced Project Template</h1>
+    <h1 align="center">Food constructor API based on Yii 2 Advanced Project Template</h1>
     <br>
 </p>
 
 Methods
 -------------------
-<b>Function</b> /1.0/price/update?key=FOJShnewogf743fhdscvn3w4cs
+<b>Function</b> /1.0/food/construct?key=FOJShnewogf743fhdscvn3w4cs
 <br/>
 
 <br/>
