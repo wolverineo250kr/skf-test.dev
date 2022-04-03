@@ -21,8 +21,8 @@ Methods
 </thead>
 <tbody>
 <tr>
-<td>data</td>
-<td>Массив id продуктов и цен для них в каждом регионе</td>
+<td>code</td>
+<td>Код ингредиент</td>
 <td>JSON</td>
 <td>
 Yes
