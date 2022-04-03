@@ -22,25 +22,14 @@ Methods
 <tbody>
 <tr>
 <td>code</td>
-<td>Код ингредиент</td>
+<td>Код ингредиента</td>
 <td>JSON</td>
 <td>
 Yes
 </td>
 <td><pre>
 {
- "data" : [
-   {
-     "product_id": 1001001,
-     "prices": {
-       "1": {
-         "price_purchase": 183330012,
-         "price_selling": 120012,
-         "price_discount": 11001
-       }
-     }
-   }
- ]
+ "code" : "dcciii"
 }
 </td>
 </tr>
